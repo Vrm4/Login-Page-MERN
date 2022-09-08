@@ -1,9 +1,8 @@
 # Login Page MERN
- Login Page
 
 # Website View
 
-# Dark Theme
+## Dark Theme
 
 ![Login Page](https://i.hizliresim.com/e9ty8bf.png)
 
@@ -11,7 +10,7 @@
 
 ![Profile Page](https://i.hizliresim.com/b5mj74k.png)
 
-# Light Theme
+## Light Theme
 
 ![Login Page](https://i.hizliresim.com/psmu8rg.png)
 
