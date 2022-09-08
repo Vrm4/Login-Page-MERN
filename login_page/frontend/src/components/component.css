@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#loginpageBox{
+    width: 300px;
+    min-height: 400px;
+    background-color: #393E46;
+    border-radius: 15px;
+    display: block;
+    margin: 5% auto auto auto;
+    transition-duration: 1s;
+}
+#loginPageMain{
+    display: flex;
+    justify-content: center;
+}
+#loginPageWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginPageIcons{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+#loginPageTitle h1{
+ text-align: center;
+ color: #00ADB5 ;
+}
+#LoginInputs{
+    display: block;
+    margin: 20px auto auto auto;
+    width: 75%;
+
+}
+#LoginInputs label{
+    color: white;
+}
+#LoginInputs input {
+    height: 30px;   
+    border-radius: 5px;
+    background: none; 
+    width: 100%;
+    border: 1px solid #00ADB5;
+    margin: 10px auto 10px auto;
+    padding-left: 10px;
+    color: white;
+}
+#LoginInputs input:focus{
+    outline: none;
+}
+#LoginInputs button { 
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #00ADB5;
+    border: none;
+    color: white;
+    display: block;
+    margin: 5px auto auto auto;
+    align-items: center;
+}
+#LoginInputs button:hover { 
+    transition-duration: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.new_account_textLink { 
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 10px;
+    display: block;
+    text-decoration: none;
+}
+#profile-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.ProfileCart{
+    width: 320px;
+    background-color: #393E46;
+    margin: 7% auto auto auto;    
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 30px;
+}
+
+#userNameTitle{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#mail-text{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+.buttons{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: #222831;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.buttons:hover {
+    transition-duration: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#button-wrapper{
+    margin: 40px auto auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+#updateInputs{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #222831;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    display: none;
+}
+#updateInputs label{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#updateInputs input {
+    height: 30px;   
+    border-radius: 5px;
+    background: none; 
+    width: 100%;
+    border: 1px solid #393E46;
+    margin: 10px auto 10px auto;
+    
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#updateInputs button { 
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #00ADB5;
+    border: none;
+    color: white;
+    display: block;
+    margin: 5px auto auto auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#updateInputs button:hover {
+    transition-duration: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#updateInputs input:focus{
+    outline: none;
+}
+#file-input{
+    display: none;
+}
+.Alert {
+    text-align: center;
+    position: absolute; 
+    margin: auto;
+    display: block;
+    top: 10px;
+    padding: 10px 35px;
+    color: white;
+    border-radius: 10px;
+}
+@media only screen and (max-width : 850px){
+    #loginpageBox { 
+        width: 80%;
+    }
+}

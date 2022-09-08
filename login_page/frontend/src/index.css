@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+}
+html ,body ,#root , #loginPageMain{ 
+  height: 100% !important;
+}
+.dark{
+  background : #222831;
+  transition-duration: 1s;
+}
+.light { 
+  background-color : #F8ECD1;
+  transition-duration: 1s;
+}
+.light #loginpageBox{
+  background-color: #DEB6AB;
+  transition-duration: 1s;
+}
+.light #loginPageTitle h1 {
+  color: #FAFDD6 ;
+}
+.light #LoginInputs label{
+  color: #FAFDD6 ;
+}
+.light #LoginInputs input{
+  border: 1px solid #FAFDD6 ;
+}
+.light #LoginInputs button{
+  background-color: #F8ECD1;
+  color: #92A9BD;
+}
+.light #LoginInputs button svg {
+  color: #92A9BD;
+}
+.light .ProfileCart{
+  background-color: #DEB6AB;
+  transition-duration: 1s;
+}
+.light .buttons {
+  background-color: #F8ECD1;
+  color: #92A9BD;
+}
+.light #updateInputs{
+  background-color : #F8ECD1;
+}
+.light #updateInputs label {
+  color: #92A9BD;
+}
+.light #updateInputs input {
+  border: 1px solid #92A9BD ;
+  box-shadow: none;
+  color: #92A9BD;
+}
+.light #updateInputs svg{
+  color: #92A9BD;
+}
+.light #updateInputs button{
+  background-color: #F8ECD1;
+  color: #92A9BD;
+}
